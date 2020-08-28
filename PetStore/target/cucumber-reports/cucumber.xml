@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.26">
+    <testcase classname="Verify getPetsByStatus method  of Pet store" name="Finds number of pets available with the name doggie" time="2.126">
+        <system-out><![CDATA[Given The petstore api accessed for getstatus of pets.......................passed
+When I perform get operation for FindByStatus...............................passed
+Then validate how many "doggie" are in "available" status...................passed
+]]></system-out>
+    </testcase>
+</testsuite>

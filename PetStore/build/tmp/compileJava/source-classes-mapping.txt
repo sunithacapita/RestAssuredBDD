@@ -1,0 +1,10 @@
+io/petstore/model/Category.java
+ io.petstore.model.Category
+io/petstore/util/ParseDynamicJson.java
+ io.petstore.util.ParseDynamicJson
+io/petstore/model/Pet.java
+ io.petstore.model.Pet
+io/petstore/api/actions/PetAPIActions.java
+ io.petstore.api.actions.PetAPIActions
+io/petstore/model/Tag.java
+ io.petstore.model.Tag

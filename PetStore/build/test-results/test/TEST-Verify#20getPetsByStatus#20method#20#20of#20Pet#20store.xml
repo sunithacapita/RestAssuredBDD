@@ -1,0 +1,6776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Verify getPetsByStatus method  of Pet store" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-28T12:21:08" hostname="Sunithas-MacBook-Pro.local" time="2.229">
+  <properties/>
+  <testcase name="Finds number of pets available with the name doggie" classname="Verify getPetsByStatus method  of Pet store" time="2.229"/>
+  <system-out><![CDATA[
+Scenario: Finds number of pets available with the name doggie ?[90m# src/test/java/features/ApiOperations.feature:2?[0m
+  ?[32mGiven ?[0m?[32mThe petstore api accessed for getstatus of pets?[0m       ?[90m# steps.StepdefsAPIOperations.the_petstore_api_accessed_for_getstatus_of_pets()?[0m
+Request method:	GET
+Request URI:	http://petstore.swagger.io/v2/pet/findByStatus?status=available
+Proxy:			<none>
+Request params:	<none>
+Query params:	status=available
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 28 Aug 2020 12:21:09 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+[
+    {
+        "id": 1005,
+        "category": {
+            "id": 811,
+            "name": "ahr2W9-t5Gqx6UM4"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "_xfcQ2D9HYy0y2Qc"
+        ],
+        "tags": [
+            {
+                "id": 22,
+                "name": "Br6r-CatStlh5JaB` sleep 2`"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 403,
+        "category": {
+            "id": 213,
+            "name": "nfGYCLwle27EuotE"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "y4X1hdW7zB2FTx5C"
+        ],
+        "tags": [
+            {
+                "id": 164,
+                "name": "VVZ-DA1EUr7DoWzf"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 985,
+        "category": {
+            "id": 480,
+            "name": "8IQNxbRYG7Ry9baW"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "lKoU9sxnuu0BNT5D"
+        ],
+        "tags": [
+            {
+                "id": 274,
+                "name": "AfGsDbCbex_Km_5w"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 509,
+        "category": {
+            "id": 817,
+            "name": "Fp3Me7AlNPxE2jzS"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "qVBn7Aj_rU2z3YVZ"
+        ],
+        "tags": [
+            {
+                "id": 1020,
+                "name": "PxHIcjRXWuohlxMn| sleep 2"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 411,
+        "category": {
+            "id": 201,
+            "name": "PaFgt9IvySxa1g0h"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "Kv7AdF6MslpUe7nM"
+        ],
+        "tags": [
+            {
+                "id": 967,
+                "name": "N3LNg-tsp4SAImkK; sleep 8"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 221,
+        "category": {
+            "id": 501,
+            "name": "EO5CmQ35t3zGMMnI"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "rPBZGtym0sUC5o1S"
+        ],
+        "tags": [
+            {
+                "id": 721,
+                "name": "qQmXSmaCsB6NU8S2` ping -n 8 localhost`"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 866,
+        "category": {
+            "id": 687,
+            "name": "-xFFnz0-8fhM8W_h"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "Jo08WPKIXyEOHmrW"
+        ],
+        "tags": [
+            {
+                "id": 436,
+                "name": "kaV1xkb0DlZ-hmtF'=SLEEP(2)='"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 363,
+        "category": {
+            "id": 635,
+            "name": "I6wGpbAESk8X4lFa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "ZICXn-qmZPu2VAE1"
+        ],
+        "tags": [
+            {
+                "id": 350,
+                "name": "NfeCZC36DFylZZ6p ping -n 2 localhost"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 831,
+        "category": {
+            "id": 340,
+            "name": "5j3mD3fu8smH6vO1"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "6ZKjSuZbOEekTL4R"
+        ],
+        "tags": [
+            {
+                "id": 927,
+                "name": "6-JKSeRCaCljnoeX& ping -n 2 localhost"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 394,
+        "category": {
+            "id": 863,
+            "name": "4bKLeg0mJKk55xbJ"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "oumnIcqCtYty8Zp6"
+        ],
+        "tags": [
+            {
+                "id": 752,
+                "name": "RPill3Pl8KjJSSoz&& ping -n 8 localhost"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 21,
+        "category": {
+            "id": 21,
+            "name": "sponge bob"
+        },
+        "name": "sponge bob",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 21,
+                "name": "sponge bob"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956532,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 285,
+        "category": {
+            "id": 735,
+            "name": "PjwJnU6xW43rVFGd"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "E_Naug1YXpxVqp0t"
+        ],
+        "tags": [
+            {
+                "id": 401,
+                "name": "oWTmuCAbLjEqxy_o AND 1 IN (SELECT BENCHMARK(4*15000000,MD5(CHAR(97))))-- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 262,
+        "category": {
+            "id": 797,
+            "name": "yjWEQBpyfcst8teW"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "HYvXcpnu_jb1vPxx"
+        ],
+        "tags": [
+            {
+                "id": 720,
+                "name": "X9yL4LQIL13ngNqY AND 1 IN (SELECT BENCHMARK(8*15000000,MD5(CHAR(97))))-- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 663,
+        "category": {
+            "id": 212,
+            "name": "htOnWfD5CF5nHJZ1"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "30o_3GwMDBxJY8O-"
+        ],
+        "tags": [
+            {
+                "id": 616,
+                "name": "p7Zf_xWA9axxHBbj=SLEEP(2)="
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 667,
+        "category": {
+            "id": 121,
+            "name": "aptn_CH7EcSscz1A"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "RQNwRcGa4lOxik7q"
+        ],
+        "tags": [
+            {
+                "id": 839,
+                "name": "LO8JG1THtZiihEWu'=SLEEP(8)='"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 309,
+        "category": {
+            "id": 654,
+            "name": "8K8NondXTW-xjSr5"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "RGuwaQodlrOIldiD"
+        ],
+        "tags": [
+            {
+                "id": 851,
+                "name": "Tie9TToPs-eCapTi);select pg_sleep(2); -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1009,
+        "category": {
+            "id": 409,
+            "name": "CYZVYYaxyDhm5K4k"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "Gbuvcu0z66qaQjqj"
+        ],
+        "tags": [
+            {
+                "id": 417,
+                "name": "Vc76_Jb6NUtbSjNQ' WHERE SLEEP(8) LIMIT 1 # "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 770,
+        "category": {
+            "id": 871,
+            "name": "AgcJ2esqY2UPrc7P"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "bV6DXfIoNC6V6PmF"
+        ],
+        "tags": [
+            {
+                "id": 90,
+                "name": "89QFfn9oTeuVkztj' OR SLEEP(4)=0 LIMIT 1 # "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 799,
+        "category": {
+            "id": 420,
+            "name": "2Uv_V1ByRSqLOQph"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "lEeqFPi1m-43VOL0"
+        ],
+        "tags": [
+            {
+                "id": 770,
+                "name": "cEeiIzq_Q6CLH_ZB') OR SLEEP(4)=0 LIMIT 1 # "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 398,
+        "category": {
+            "id": 425,
+            "name": "_WXRd4MEQu5yTcdb"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "WetQNdKIfg51SkAs"
+        ],
+        "tags": [
+            {
+                "id": 735,
+                "name": "NIvqbSVMKEPY4FRG') OR SLEEP(8)=0 LIMIT 1 # "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956533,
+        "name": "Goot Doggie",
+        "photoUrls": [
+            "https://media.karousell.com/media/photos/products/2017/09/14/doggi_door_stopper_1505372529_5cdd1eba0"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 440,
+        "category": {
+            "id": 149,
+            "name": "6999FXSfaGZkffB-"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "Vpq-XBWa6d6qgsfq"
+        ],
+        "tags": [
+            {
+                "id": 599,
+                "name": "8nfZhOWX6WH9R_js' OR SLEEP(4)=0 LIMIT 1 -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 497,
+        "category": {
+            "id": 139,
+            "name": "FbPvP-NnvHFpal5-"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "jAfxV9H2ZawWM5zo"
+        ],
+        "tags": [
+            {
+                "id": 836,
+                "name": "vw_nvEA53oHgpjCz) AND SLEEP(4)=0 LIMIT 1 # "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956534,
+        "name": "Goot Doggie",
+        "photoUrls": [
+            "https://media.karousell.com/media/photos/products/2017/09/14/doggi_door_stopper_1505372529_5cdd1eba0"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 223,
+        "category": {
+            "id": 995,
+            "name": "JaCGboL51Cbh8SPN"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "apja_hz7zxKzKIri"
+        ],
+        "tags": [
+            {
+                "id": 76,
+                "name": "jJxorUQNLo8Fdj8O') AND SLEEP(2)=0 LIMIT 1 # "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 995,
+        "category": {
+            "id": 607,
+            "name": "jhukGEp0fdj2tn8U"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "399DrAPGOJIuzGs6"
+        ],
+        "tags": [
+            {
+                "id": 662,
+                "name": "GK8CfC3bSQ1S9NYj') AND SLEEP(8)=0 LIMIT 1 # "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 387,
+        "category": {
+            "id": 38,
+            "name": "kMoLaS30b1QHp1CD"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "qqS6M8Fow_Ghfvzg"
+        ],
+        "tags": [
+            {
+                "id": 557,
+                "name": "2nKNaLL_KQWWz-Ak;select pg_sleep(8); -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 675,
+        "category": {
+            "id": 633,
+            "name": "KJf-aM3XII1loCnB"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "WlhQTSP6HmxjcRKD"
+        ],
+        "tags": [
+            {
+                "id": 214,
+                "name": "8MFx_KkLOT8q7vFh"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 164,
+        "category": {
+            "id": 177,
+            "name": "ISC-xvn-EDAzGTIN"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "7vb9Nib7psXf7Iud"
+        ],
+        "tags": [
+            {
+                "id": 4,
+                "name": "KnejBAm29UQSQq2L)) OR SLEEP(8)=0 LIMIT 1 -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 899,
+        "category": {
+            "id": 355,
+            "name": "57yhoFRI0kkS1sgW"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "nnvGdy6yfs8B0ceo"
+        ],
+        "tags": [
+            {
+                "id": 822,
+                "name": "JFSTKFy-5aXol2Ex') AND SLEEP(2)=0 LIMIT 1 -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 460,
+        "category": {
+            "id": 176,
+            "name": "hCW82HvQ1iKh9SNO"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "GWsdkiuM9v_CYQKT"
+        ],
+        "tags": [
+            {
+                "id": 454,
+                "name": "WwU5Wj9eW7tT4ucP' AND SLEEP(8)=0 LIMIT 1 -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 520,
+        "category": {
+            "id": 276,
+            "name": "eno-U4azwn3FVDMu"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "qv46SuarKTH16a0K"
+        ],
+        "tags": [
+            {
+                "id": 244,
+                "name": "76438cZjEr_Dic3v' AND SLEEP(2)=0 LIMIT 1 -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 583,
+        "category": {
+            "id": 999,
+            "name": "yIz3MmjsDIDWHc2f"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "gEpTQFCtk5-u5CfX"
+        ],
+        "tags": [
+            {
+                "id": 962,
+                "name": "-SglzjrFXg9x1q44') AND SLEEP(8)=0 LIMIT 1 -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 739,
+        "category": {
+            "id": 478,
+            "name": "aQ1ygPW_A_MZSVjK"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "tchaQl83IXXNS43-"
+        ],
+        "tags": [
+            {
+                "id": 705,
+                "name": "Jova2GkLAzE6Xp9f));select pg_sleep(2); -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 47,
+        "category": {
+            "id": 579,
+            "name": "UEwXg3pRWYWvAvhp"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "P-ff6aU5SEgQlD5e"
+        ],
+        "tags": [
+            {
+                "id": 551,
+                "name": "DeoaEJW3L2jBCTKr';select pg_sleep(2); -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 452,
+        "category": {
+            "id": 596,
+            "name": "OOCTbn8aNOSgxRGh"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "zd7M9JxDDPRnER6j"
+        ],
+        "tags": [
+            {
+                "id": 911,
+                "name": "TjYyp2IbdJ8hGTx4';select pg_sleep(8); -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 334,
+        "category": {
+            "id": 107,
+            "name": "dhuwj1qtiyJLxUOh"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "aFqQRmJtuixv5Ydo"
+        ],
+        "tags": [
+            {
+                "id": 201,
+                "name": "Eh2dTXFbY-x4a8iz'));select pg_sleep(8); -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 588,
+        "category": {
+            "id": 503,
+            "name": "h5Q95_eu8Piu6ASA"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "Vo2PpqTuaRBia0bV"
+        ],
+        "tags": [
+            {
+                "id": 310,
+                "name": "L5se-xCuRlcVO78I'));select pg_sleep(4); -- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 442,
+        "category": {
+            "id": 862,
+            "name": "n_tI-vRcK-IC8fRy"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "wS7ITmmE4fH3XsUq"
+        ],
+        "tags": [
+            {
+                "id": 985,
+                "name": "S5IRl18LAHKYLCU_);WAITFOR DELAY '00:00:4'-- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1010,
+        "category": {
+            "id": 330,
+            "name": "6oAvDKI2jveM_JHg"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "2f6rHKLk07GXhJ36"
+        ],
+        "tags": [
+            {
+                "id": 96,
+                "name": "2s-xPvnSksjr3dYM));WAITFOR DELAY '00:00:2'-- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 801,
+        "category": {
+            "id": 832,
+            "name": "x1LoqupYHfxqada4"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "3tzhZ37Xt8zXQf4p"
+        ],
+        "tags": [
+            {
+                "id": 761,
+                "name": "Xcw4I9axNBw648TB));WAITFOR DELAY '00:00:4'-- "
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 128,
+        "category": {
+            "id": 1022,
+            "name": "bK_KwX0-xZxAuP60"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "ByHBVVruFAHZuHCQ"
+        ],
+        "tags": [
+            {
+                "id": 967,
+                "name": "pRXw_3a1JxeCrToQ` sleep 8`"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 845,
+        "category": {
+            "id": 810,
+            "name": "4pxST1rv7BjDTIwp"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "ozvircizzSIdgF56"
+        ],
+        "tags": [
+            {
+                "id": 635,
+                "name": "LPGlUVtMIUU-Kj8r& sleep 4"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 716,
+        "category": {
+            "id": 337,
+            "name": "XkprbSwi0Aq3Y0Z3"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dBhZYjCo3rJL8K8u"
+        ],
+        "tags": [
+            {
+                "id": 805,
+                "name": "Rhcc4I8-ruPHsa-_; sleep 4"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 755,
+        "category": {
+            "id": 836,
+            "name": "o0Ipcqync-9X1lpu"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "oH0vJRHMDohhRO_S"
+        ],
+        "tags": [
+            {
+                "id": 605,
+                "name": "clenHUT7_gR-ggOz& ping -n 4 localhost"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956535,
+        "name": "Goot Doggie",
+        "photoUrls": [
+            "https://media.karousell.com/media/photos/products/2017/09/14/doggi_door_stopper_1505372529_5cdd1eba0"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956536,
+        "name": "Goot Doggie",
+        "photoUrls": [
+            "https://media.karousell.com/media/photos/products/2017/09/14/doggi_door_stopper_1505372529_5cdd1eba0"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956537,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956545,
+        "name": "Goot Doggie",
+        "photoUrls": [
+            "https://media.karousell.com/media/photos/products/2017/09/14/doggi_door_stopper_1505372529_5cdd1eba0"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956547,
+        "name": "Goot Doggie",
+        "photoUrls": [
+            "https://media.karousell.com/media/photos/products/2017/09/14/doggi_door_stopper_1505372529_5cdd1eba0"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956550,
+        "name": "Goot Doggie",
+        "photoUrls": [
+            "https://media.karousell.com/media/photos/products/2017/09/14/doggi_door_stopper_1505372529_5cdd1eba0"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956551,
+        "name": "Goot Doggie",
+        "photoUrls": [
+            "https://media.karousell.com/media/photos/products/2017/09/14/doggi_door_stopper_1505372529_5cdd1eba0"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956552,
+        "name": "Goot Doggie",
+        "photoUrls": [
+            "https://media.karousell.com/media/photos/products/2017/09/14/doggi_door_stopper_1505372529_5cdd1eba0"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956553,
+        "name": "Goot Doggie",
+        "photoUrls": [
+            "https://media.karousell.com/media/photos/products/2017/09/14/doggi_door_stopper_1505372529_5cdd1eba0"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956554,
+        "category": {
+            "id": 0,
+            "name": "dog"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "https://clipartix.com/wp-content/uploads/2016/12/Dogs-tan-brown-cartoon-dog-clip-art-pictures.jpg"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "cute"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956555,
+        "category": {
+            "id": 666,
+            "name": "Imp"
+        },
+        "name": "Bilbo",
+        "photoUrls": [
+            "https://vignette.wikia.nocookie.net/disciples-world/images/3/33/Imp.jpg/revision/latest?cb=20200125135519&path-prefix=ru"
+        ],
+        "tags": [
+            {
+                "id": 666,
+                "name": "Imp"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956556,
+        "category": {
+            "id": 666,
+            "name": "Imp"
+        },
+        "name": "Bilbo",
+        "photoUrls": [
+            "https://vignette.wikia.nocookie.net/disciples-world/images/3/33/Imp.jpg/revision/latest?cb=20200125135519&path-prefix=ru"
+        ],
+        "tags": [
+            {
+                "id": 666,
+                "name": "Imp"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 15555,
+        "category": {
+            "id": 0,
+            "name": "puppy"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Charlie"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956557,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "benny",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956558,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956559,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956560,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956571,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "cat",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956572,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956573,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956574,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956575,
+        "category": {
+            "id": 65,
+            "name": "pet123"
+        },
+        "name": "pettie",
+        "photoUrls": [
+            "testurl"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956585,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Benny",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956587,
+        "category": {
+            "id": 65,
+            "name": "pet123"
+        },
+        "name": "pettie",
+        "photoUrls": [
+            "testurl"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956589,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956591,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956602,
+        "name": "dog",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "large breed"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956603,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956605,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956606,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 222,
+        "name": "tex",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 21,
+                "name": "tex"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 11,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "gvfsor",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956617,
+        "name": "dog",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "large breed"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956618,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956619,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956631,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "cat",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956632,
+        "category": {
+            "id": 1,
+            "name": "string"
+        },
+        "name": "cat",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956633,
+        "name": "jRXDLlvxtJ",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956634,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956635,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956636,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956637,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956645,
+        "category": {
+            "id": 0,
+            "name": "dog"
+        },
+        "name": "Rex",
+        "photoUrls": [
+            "http://example.com/images/rex.png"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956649,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "sport",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 10,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10,
+        "category": {
+            "id": 10,
+            "name": "string"
+        },
+        "name": "Peppe",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 10,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956650,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956662,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956673,
+        "name": "kpRsAKcGkC",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956674,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956675,
+        "name": "RpNzwOGwhU",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956676,
+        "name": "AGOUkLPQkC",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956677,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956684,
+        "name": "rxaGgghtfH",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956689,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956690,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956691,
+        "name": "iVknIMJtFS",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956692,
+        "category": {
+            "id": 0,
+            "name": "Jerry"
+        },
+        "name": "Mouse",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Mouse"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956693,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956694,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956695,
+        "name": "XgLVdNgBAl",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956696,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956697,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956698,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956709,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Robin",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 30170760,
+        "name": "Tommy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956711,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1111,
+        "category": {
+            "id": 1,
+            "name": "Dog"
+        },
+        "name": "Tuffy1",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "name1"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956722,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1245,
+        "category": {
+            "id": 1245,
+            "name": "xyz"
+        },
+        "name": "xyz",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956723,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Robin1",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956725,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Robin1",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956726,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956727,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956738,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956740,
+        "name": "jxPiwDWguj",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956741,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956749,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956753,
+        "name": "xuxSjBMCbx",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 12345678,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "BARSIK",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956754,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956755,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Monster",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956756,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956757,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956768,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie123",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1817035939,
+        "name": "Tommy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956769,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956770,
+        "name": "lHtFQjUaVo",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956774,
+        "category": {
+            "id": 0,
+            "name": "Monster"
+        },
+        "name": "Monster",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 4711,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956782,
+        "category": {
+            "id": 4711,
+            "name": "Monster"
+        },
+        "name": "Monster",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 4711,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956783,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956784,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956785,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956786,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956787,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956788,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956789,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956790,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956799,
+        "category": {
+            "id": 0,
+            "name": "puppy"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Charlie"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956804,
+        "name": "siyaan",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956806,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956808,
+        "name": "Freddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956809,
+        "name": "Freddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956810,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956811,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956812,
+        "name": "Freddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956813,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956814,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956815,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956816,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "http://www.example.com/"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956823,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "http://www.example.com/"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956830,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Robins",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956831,
+        "name": "Freddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956832,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Robins",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956833,
+        "name": "Freddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956834,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956835,
+        "category": {
+            "id": 0,
+            "name": "puppy"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Charlie"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956836,
+        "name": "siyaan",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956837,
+        "name": "Freddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956838,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956839,
+        "category": {
+            "id": 1,
+            "name": "dog"
+        },
+        "name": "Unitowy Brutus",
+        "photoUrls": [
+            "https://ujeb.se/YYHsU"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956840,
+        "category": {
+            "id": 1,
+            "name": "dog"
+        },
+        "name": "Unitowy Brutus",
+        "photoUrls": [
+            "https://ujeb.se/YYHsU"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956848,
+        "category": {
+            "id": 1,
+            "name": "dog"
+        },
+        "name": "Unitowy Brutus",
+        "photoUrls": [
+            "https://ujeb.se/YYHsU"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956854,
+        "category": {
+            "id": 1,
+            "name": "dog"
+        },
+        "name": "Unitowy Brutus",
+        "photoUrls": [
+            "https://ujeb.se/YYHsU"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956855,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956856,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Robins",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 132,
+        "category": {
+            "id": 132,
+            "name": "jisa"
+        },
+        "name": "jisa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 132,
+                "name": "jisa"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956857,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "ksrtclocfi",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 131,
+        "category": {
+            "id": 131,
+            "name": "kisa"
+        },
+        "name": "kisa",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 131,
+                "name": "kisa"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 100,
+        "category": {
+            "id": -25,
+            "name": "ping"
+        },
+        "name": "Zippo",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": -25,
+                "name": "ping"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956858,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956859,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956860,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956861,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Robins",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956862,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Robins",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956873,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956874,
+        "name": "khtFiuiIRO",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956875,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956876,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956877,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956878,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956879,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9898,
+        "category": {
+            "id": 1,
+            "name": "Ouzo"
+        },
+        "name": "Ouzos",
+        "photoUrls": [
+            "https://ujeb.se/YYHsU"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "Ouzos"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1574,
+        "category": {
+            "id": 101,
+            "name": "testcategory"
+        },
+        "name": "testpet",
+        "photoUrls": [
+            "photo1.png",
+            "photo2.png"
+        ],
+        "tags": [
+            {
+                "id": 102,
+                "name": "testtag1"
+            },
+            {
+                "id": 103,
+                "name": "testtag2"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956890,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956891,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie1",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956892,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie1",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1675,
+        "category": {
+            "id": 101,
+            "name": "testcategory"
+        },
+        "name": "getcatinput",
+        "photoUrls": [
+            "c.png",
+            "d.png"
+        ],
+        "tags": [
+            {
+                "id": 102,
+                "name": "testtag1"
+            },
+            {
+                "id": 103,
+                "name": "testtag2"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9897,
+        "category": {
+            "id": 1,
+            "name": "Jas"
+        },
+        "name": "Jas",
+        "photoUrls": [
+            "https://ujeb.se/YYHsU"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "Jas"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956893,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1781,
+        "category": {
+            "id": 101,
+            "name": "testcategory"
+        },
+        "name": "testpet",
+        "photoUrls": [
+            "photo1.png",
+            "photo2.png"
+        ],
+        "tags": [
+            {
+                "id": 102,
+                "name": "testtag1"
+            },
+            {
+                "id": 103,
+                "name": "testtag2"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956904,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956905,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956906,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956907,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956908,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956909,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956910,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956911,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956912,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956913,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956914,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956915,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956916,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956917,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956918,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956919,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956920,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956921,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956922,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956923,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956924,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956925,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956926,
+        "category": {
+            "id": 0,
+            "name": "aa"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956927,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956928,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956929,
+        "category": {
+            "id": 0,
+            "name": "Jerry"
+        },
+        "name": "Mouse",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Mouse"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956930,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956931,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956932,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956943,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956945,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956946,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1234,
+        "category": {
+            "id": 10,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956959,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956960,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956961,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956962,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956973,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956974,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956975,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Clyde",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956976,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956977,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956978,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956979,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956988,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "vasya"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956991,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956992,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956996,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "jackie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956997,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889956999,
+        "name": "siyaan",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957012,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957013,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957014,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957015,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957016,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957017,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957028,
+        "name": "GvahDEbdqf",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957029,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957030,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957031,
+        "name": "JHyfojrGGK",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957032,
+        "name": "uzLBAoowZq",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957033,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957034,
+        "category": {
+            "id": 0,
+            "name": "puppy"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Charlie"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957035,
+        "name": "siyaan",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957037,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957038,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957039,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957040,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957051,
+        "name": "xzuQRElFZT",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957052,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "cat",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957053,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Elephant",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957054,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957055,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957056,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957069,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957071,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 12,
+            "name": "bibi"
+        },
+        "name": "kotopes",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 12,
+                "name": "zozo"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957072,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957073,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957077,
+        "name": "ieFOjFxWtR",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957082,
+        "category": {
+            "id": 0,
+            "name": "dog"
+        },
+        "name": "Rex",
+        "photoUrls": [
+            "http://example.com/images/rex.png"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957086,
+        "name": "SgpavdErJU",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957087,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957088,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957089,
+        "name": "ctKlIDmWTw",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957090,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957091,
+        "category": {
+            "id": 0,
+            "name": "mystring"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957092,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 195,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "TestPet-260820",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957095,
+        "category": {
+            "id": 0,
+            "name": "mystring"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957097,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Fish",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957104,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957106,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957107,
+        "category": {
+            "id": 0,
+            "name": "puppy"
+        },
+        "name": "tommy",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957108,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957109,
+        "category": {
+            "id": 0,
+            "name": "puppy"
+        },
+        "name": "tommy",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957110,
+        "category": {
+            "id": 0,
+            "name": "puppy"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Charlie"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957111,
+        "name": "siyaan",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957112,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957113,
+        "name": "Buddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 20,
+        "category": {
+            "id": 20,
+            "name": "sponge bob"
+        },
+        "name": "sponge bob",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 20,
+                "name": "sponge bob"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 22,
+        "category": {
+            "id": 22,
+            "name": "sponge bob"
+        },
+        "name": "sponge bob",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 22,
+                "name": "sponge bob"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957124,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Robins",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 669118,
+        "category": {
+            "id": 666,
+            "name": "Imp"
+        },
+        "name": "{log4j.appender.debugfile.layout.conversionPattern=[%5p] %d{HH:mm:ss} %t %c{1}:%M:%L - %m%n, log4j.appender.debugfile.file=myproject-debug.log, log4j.appender.rollingFileAppender.MaxBackupIndex=2, log4j.appender.rollingFileAppender.layout=org.apache.log4j.PatternLayout, log4j.appender.rollingFileAppender.layout.ConversionPattern=[%p] time: %d{yyyy-MM-dd HH:mm:ss,SSS} file: %F class: %c method: %M line: %L thread: %t - %m%n, log4j.appender.debugfile.layout=org.apache.log4j.PatternLayout, log4j.appender.consoleAppender.layout.ConversionPattern=[%p] %d{h:mm:ss aa zzz E} %m%n, log4j.appender.rollingFileAppender.Append=true, log4j.rootCategory=DEBUG, consoleAppender, rollingFileAppender, log4j.logger.com.softserve.training=TRACE, debugfile, log4j.appender.consoleAppender.layout=org.apache.log4j.PatternLayout, log4j.appender.rollingFileAppender=org.apache.log4j.RollingFileAppender, log4j.appender.rollingFileAppender.File=TestLogs.log, log4j.appender.rollingFileAppender.MaxFileSize=100KB, log4j.logger.com.softserve.training.Calc=INFO, log4j.appender.consoleAppender=org.apache.log4j.ConsoleAppender, log4j.appender.rollingFileAppender.encoding=UTF-8, log4j.appender.debugfile=org.apache.log4j.FileAppender}",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 666,
+                "name": "Imp"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957125,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "benny",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957126,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "benny",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957127,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957128,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957139,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957140,
+        "name": "OBliAmJOKN",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957141,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie1",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957142,
+        "category": {
+            "id": 0,
+            "name": "Jerry"
+        },
+        "name": "Mouse",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Mouse"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957143,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1991,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957144,
+        "name": "buddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957145,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957146,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957147,
+        "name": "sport",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957148,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957149,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957150,
+        "name": "buddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957151,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957152,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957153,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957154,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957155,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957156,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957157,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957161,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957169,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957171,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957172,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957173,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 40,
+        "category": {
+            "id": 40,
+            "name": "sponge bob"
+        },
+        "name": "sponge bob",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 40,
+                "name": "sponge bob"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957185,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957186,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957187,
+        "name": "jYfPRSOcFI",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957188,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "Jackie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957189,
+        "name": "MQphlqlhnN",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957191,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957192,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957193,
+        "name": "sport",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957194,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957195,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957196,
+        "name": "buddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957197,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 2,
+        "category": {
+            "id": 2,
+            "name": "string"
+        },
+        "name": "abc",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957208,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957210,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957211,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957212,
+        "name": "eZNICMASlJ",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957213,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957214,
+        "name": "tWaumbKCGH",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957215,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957219,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 991,
+        "category": {
+            "id": 87,
+            "name": "category991"
+        },
+        "name": "Llama",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957227,
+        "name": "ZsZMfNwKlG",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957228,
+        "category": {
+            "id": -25,
+            "name": "ping"
+        },
+        "name": "Zippo",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": -25,
+                "name": "ping"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957229,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957230,
+        "category": {
+            "id": 0,
+            "name": "mystring"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "preethi"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957231,
+        "name": "oWZTmGYwKP",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957232,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957233,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957234,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957235,
+        "name": "sport",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957236,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957237,
+        "name": "doggie",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957238,
+        "name": "buddy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957239,
+        "category": {
+            "id": -25,
+            "name": "ping"
+        },
+        "name": "Zippo",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": -25,
+                "name": "ping"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957240,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957241,
+        "category": {
+            "id": -25,
+            "name": "ping"
+        },
+        "name": "Zippo",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": -25,
+                "name": "ping"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957242,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957244,
+        "name": "QfGoIVQYfA",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957254,
+        "category": {
+            "id": -25,
+            "name": "ping"
+        },
+        "name": "Zippo",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": -25,
+                "name": "ping"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957255,
+        "name": "XuuIwlkazf",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957259,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957260,
+        "name": "RQtnpqJejX",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957261,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957272,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957275,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957276,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957280,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957283,
+        "category": {
+            "id": -25,
+            "name": "ping"
+        },
+        "name": "Zippo",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": -25,
+                "name": "ping"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957284,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie123",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957285,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957286,
+        "category": {
+            "id": -25,
+            "name": "ping"
+        },
+        "name": "Zippo",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": -25,
+                "name": "ping"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957295,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957299,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957300,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957302,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957303,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957304,
+        "name": "CDIzHzxjLv",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957305,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957306,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957307,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957308,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957309,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 564,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957315,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957316,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 2019,
+        "category": {
+            "id": 2019,
+            "name": "Niyati"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "https://www.google.com/"
+        ],
+        "tags": [
+            {
+                "id": 2019,
+                "name": "Niyati"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957317,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "kat",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957326,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957328,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie111",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957330,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie111",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957332,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957333,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957334,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957335,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957350,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 7777778888889957353,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1621755438,
+        "name": "Tommy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    }
+]
+  ?[32mWhen ?[0m?[32mI perform get operation for FindByStatus?[0m               ?[90m# steps.StepdefsAPIOperations.i_perform_get_operation_for_FindByStatus()?[0m
+265 doggies are in available status
+  ?[32mThen ?[0m?[32mvalidate how many ?[0m?[32m?[1m"doggie"?[0m?[32m are in ?[0m?[32m?[1m"available"?[0m?[32m status?[0m   ?[90m# steps.StepdefsAPIOperations.validate_how_many_are_in_status(java.lang.String,java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-28T12:21:08.170Z",
+        "line": 2,
+        "name": "Finds number of pets available with the name doggie",
+        "description": "",
+        "id": "verify-getpetsbystatus-method--of-pet-store;finds-number-of-pets-available-with-the-name-doggie",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 457741000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "The petstore api accessed for getstatus of pets",
+            "match": {
+              "location": "steps.StepdefsAPIOperations.the_petstore_api_accessed_for_getstatus_of_pets()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1613133000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I perform get operation for FindByStatus",
+            "match": {
+              "location": "steps.StepdefsAPIOperations.i_perform_get_operation_for_FindByStatus()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11746000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate how many \"doggie\" are in \"available\" status",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"doggie\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"available\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.StepdefsAPIOperations.validate_how_many_are_in_status(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify getPetsByStatus method  of Pet store",
+    "description": "",
+    "id": "verify-getpetsbystatus-method--of-pet-store",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ApiOperations.feature",
+    "tags": []
+  }
+]
